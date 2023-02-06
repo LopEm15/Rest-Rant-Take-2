@@ -22,8 +22,6 @@ function show (data) {
                 <h4>
                     Serving {data.place.cuisines}
                 </h4>
-                <h2>Comments</h2>
-                <p className="text-center">No comments yet!</p>
                 <a href={`/places/${data.id}/edit`} className="btn btn-warning">
                     Edit
                 </a>
@@ -33,6 +31,8 @@ function show (data) {
                     </button>
                 </form>
                 </div>
+                <h2>Comments</h2>
+                <p className="text-center">No comments yet!</p>
             </div>
           </main>
         </Def>
