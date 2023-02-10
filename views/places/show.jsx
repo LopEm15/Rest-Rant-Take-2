@@ -90,17 +90,17 @@ function show (data) {
               <div className="row">
                 <div className="form-group col-sm-12">
                   <label htmlFor="content">Content</label>
-                  <textarea id="content" name="content" className="form-control"></textarea>
+                  <textarea id="content" name="content" className="form-control col-sm-4"></textarea>
                 </div>
               </div>
               <div className="row">
                 <div className="form-group col-sm-4">
                   <label htmlFor="author">Author</label>
-                  <input id="author" name="author" className="form-control" />
+                  <input id="author" name="author" className="form-control col-sm-4" />
                 </div>
                 <div className="form-group col-sm-4">
                   <label htmlFor="stars">Star Rating</label>
-                  <input type="range" step="0.5" min="1" max="5" id="stars" name="stars" className="form-control" />
+                  <input type="range" step="0.5" min="1" max="5" id="stars" name="stars" className="slider" />
                 </div>
                 <div className="form-group col-sm-2">
                   <label htmlFor="rant">Rant?</label>
